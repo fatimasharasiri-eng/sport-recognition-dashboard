@@ -201,7 +201,7 @@ span[style*="border-radius:999px"] { background:var(--sport-yellow) !important; 
 /* Stickers */
 .sticker { position:fixed; z-index:1; pointer-events:none;
            filter:drop-shadow(0 6px 10px rgba(40,20,90,.28)); }
-@media (max-width:1300px) { .sticker { display:none; } }
+@media (max-width:1300px) { .sticker { display:block; } }
 </style>
 """
 
