@@ -1,4 +1,4 @@
-"""Lovable design system ported to Streamlit.
+"""
 Usage in your main file: replace the big <style> st.markdown block with
 
     from theme import apply_theme
