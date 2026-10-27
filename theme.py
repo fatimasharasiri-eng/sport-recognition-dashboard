@@ -202,6 +202,24 @@ span[style*="border-radius:999px"] { background:var(--sport-yellow) !important; 
 .sticker { position:fixed; z-index:1; pointer-events:none;
            filter:drop-shadow(0 6px 10px rgba(40,20,90,.28)); }
 @media (max-width:1300px) { .sticker { display:block; } }
+/* Fix radio button text visibility on all devices */
+.stRadio label,
+.stRadio label p,
+.stRadio [data-testid="stMarkdownContainer"] p {
+    color: #24183D !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.stRadio div[role="radiogroup"] label {
+    color: #24183D !important;
+    -webkit-text-fill-color: #24183D !important;
+}
+
+.stRadio div[role="radiogroup"] label p {
+    color: inherit !important;
+    -webkit-text-fill-color: inherit !important;
+}
 </style>
 """
 
